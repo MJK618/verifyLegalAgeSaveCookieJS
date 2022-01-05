@@ -9,9 +9,10 @@ function checkAgeCookie() {
 
 function redirectTo(leg_age) {
   if (leg_age > 20 && leg_age < 100) {
-   
   } else if (leg_age < 21) {
     window.location.replace("error.html");
+  } else {
+      alert("Please Enter a valid Birth Year");
   }
 }
 function askBirthYear() {
