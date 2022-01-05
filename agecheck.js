@@ -11,7 +11,7 @@ function redirectTo(leg_age) {
   if (leg_age > 20 && leg_age < 100) {
    
   } else if (leg_age < 21) {
-    window.location.replace("verifyLegalAgeSaveCookieJS/error.html");
+    window.location.replace("https://jatinkamboj.me/verifyLegalAgeSaveCookieJS/error.html");
   }
 }
 function askBirthYear() {
