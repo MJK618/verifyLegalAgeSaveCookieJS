@@ -13,6 +13,7 @@ function redirectTo(leg_age) {
     window.location.replace("error.html");
   } else {
       alert("Please Enter a valid Birth Year");
+      redirectTo(1);
   }
 }
 function askBirthYear() {
